@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CostaAndes Propiedades | Venta y arriendo en la Quinta Región</title>
+  <meta name="description" content="Corredora de propiedades ficticia en la Región de Valparaíso: venta, arriendo y tasación. Demo para mostrar a clientes." />
+  <meta name="theme-color" content="#06101f" />
+  <meta property="og:title" content="CostaAndes Propiedades | Quinta Región" />
+  <meta property="og:description" content="Landing demo (datos ficticios) para corredor de propiedades en Viña del Mar, Concón, Valparaíso y alrededores." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CL" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Simple JSON-LD (datos de ejemplo) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "CostaAndes Propiedades",
+    "areaServed": ["Viña del Mar","Concón","Valparaíso","Quilpué","Villa Alemana","Curauma"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Perú 1234, oficina 502",
+      "addressLocality": "Viña del Mar",
+      "addressRegion": "Región de Valparaíso",
+      "addressCountry": "CL"
+    },
+    "telephone": "+56 9 3178 4216",
+    "email": "hola@costaandespropiedades.cl",
+    "url": ""
+  }
+  </script>
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <strong data-brand>CostaAndes Propiedades</strong>
+          <span data-tagline>Venta y arriendo en la Quinta Región</span>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <a class="btn" href="#propiedades">Propiedades</a>
+        <a class="btn" href="#servicios">Servicios</a>
+        <a class="btn" href="#contacto">Contacto</a>
+        <a class="btn primary" data-wa-cta target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="top" class="hero">
+    <div class="container hero-grid">
+      <section class="card hero-card" aria-labelledby="hero-title">
+        <div class="kicker">
+          <span class="pill">Valparaíso • Quinta Región</span>
+          <span class="meta-chip">⚡ Respuesta rápida</span>
+          <span class="meta-chip">🧾 Contrato claro</span>
+        </div>
+
+        <h1 id="hero-title" class="h1">
+          Vende o arrienda tu propiedad con un plan claro (y sin letra chica).
+        </h1>
+        <p class="lead">
+          Publicidad + visitas + filtros de interesados + acompañamiento hasta firma.
+          Atendemos Viña del Mar, Concón, Valparaíso, Quilpué, Villa Alemana y Curauma.
+        </p>
+
+        <div class="hero-ctas">
+          <a class="btn primary" href="#contacto">Quiero que me contacten</a>
+          <a class="btn" data-wa-cta target="_blank" rel="noopener">Hablar por WhatsApp</a>
+          <a class="btn" href="#propiedades">Ver propiedades destacadas</a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="meta-chip">📍 <span data-address>Av. Perú 1234, Viña del Mar</span></div>
+          <div class="meta-chip">🕒 <span data-hours>Lun–Vie 09:30–18:30</span></div>
+        </div>
+
+        <hr class="hr" />
+
+        <div class="grid-2">
+          <div class="feature card" style="padding:14px">
+            <div class="icon" aria-hidden="true">🧠</div>
+            <h3>Filtramos bien</h3>
+            <p>Validamos presupuesto, perfil y tiempos. Menos visitas “turistas”, más ofertas reales.</p>
+          </div>
+          <div class="feature card" style="padding:14px">
+            <div class="icon" aria-hidden="true">📣</div>
+            <h3>Publicación efectiva</h3>
+            <p>Fotos, copy y distribución en canales según la zona (venta o arriendo).</p>
+          </div>
+        </div>
+
+        <p class="small" style="margin-top:12px">
+          *Sitio demo con datos ficticios (sirve para mostrar a clientes y luego reemplazar por datos reales).
+        </p>
+      </section>
+
+      <aside class="card aside" aria-label="Resumen rápido">
+        <h3>¿Por qué nos eligen?</h3>
+        <p>
+          Enfocados en cerrar: tasación realista, estrategia, seguimiento semanal y transparencia en todo el proceso.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <strong>48–72h</strong>
+            <span>para publicar una propiedad</span>
+          </div>
+          <div class="stat">
+            <strong>1 semana</strong>
+            <span>primer reporte de interés</span>
+          </div>
+          <div class="stat">
+            <strong>+12</strong>
+            <span>años de experiencia (demo)</span>
+          </div>
+          <div class="stat">
+            <strong>Viña • Concón</strong>
+            <span>zonas foco</span>
+          </div>
+        </div>
+
+        <hr class="hr" />
+
+        <div class="small">
+          <div style="margin-bottom:8px">📞 <a data-phone-link><span data-phone>+56 9 3178 4216</span></a></div>
+          <div style="margin-bottom:8px">✉️ <a data-email-link><span data-email>hola@costaandespropiedades.cl</span></a></div>
+          <div>✅ Atención: <span data-hours>Lun–Vie 09:30–18:30</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- DATA ERROR -->
+    <div class="container" style="margin-top:14px">
+      <div id="dataError" hidden class="card" style="padding:14px; border-color: rgba(255,80,80,.35); background: rgba(255,80,80,.06)">
+        No se pudo cargar <code>properties.json</code>. Revisa que esté en el mismo directorio que <code>index.html</code>.
+      </div>
+    </div>
+  </main>
+
+  <!-- PROPERTIES -->
+  <section id="propiedades" class="section">
+    <div class="container">
+      <h2>Propiedades destacadas</h2>
+      <p class="section-lead">
+        Selección de ejemplo (venta y arriendo). En proyectos reales, esto se actualiza con el catálogo del corredor.
+      </p>
+
+      <div class="tabs" role="tablist" aria-label="Filtrar propiedades">
+        <button id="tabSale" class="tab" role="tab" aria-selected="true" aria-controls="panelSale">En venta</button>
+        <button id="tabRent" class="tab" role="tab" aria-selected="false" aria-controls="panelRent">En arriendo</button>
+      </div>
+
+      <div class="props">
+        <div id="panelSale" role="tabpanel" aria-labelledby="tabSale">
+          <div class="props-grid" id="salesGrid" aria-label="Propiedades en venta"></div>
+        </div>
+
+        <div id="panelRent" role="tabpanel" aria-labelledby="tabRent" hidden>
+          <div class="props-grid" id="rentalsGrid" aria-label="Propiedades en arriendo"></div>
+        </div>
+      </div>
+
+      <div class="small" style="margin-top:12px; color: rgba(255,255,255,.5)">
+        Tip: para “cerrar rápido”, cada card tiene un <b>ID</b> (ej: VTA-001). Así el cliente pregunta “por el ID” y se evita confusión.
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2>Servicios</h2>
+      <p class="section-lead">
+        Un paquete claro para vender o arrendar en la Quinta Región, con comunicación simple.
+      </p>
+
+      <div class="grid-3">
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">🏷️</div>
+          <h3>Tasación y estrategia</h3>
+          <p>Comparables por sector + recomendación de precio para atraer visitas sin “regalar” tu propiedad.</p>
+        </div>
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">📸</div>
+          <h3>Publicación & marketing</h3>
+          <p>Fotos, copy, agendamiento y gestión de interesados. Reporte semanal de métricas.</p>
+        </div>
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">🧾</div>
+          <h3>Gestión documental</h3>
+          <p>Checklist de papeles, coordinación de promesa/contrato y acompañamiento hasta la firma.</p>
+        </div>
+      </div>
+
+      <div class="grid-2" style="margin-top:14px">
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">🔐</div>
+          <h3>Arriendo con filtro</h3>
+          <p>Validación básica (ingresos/antecedentes) y propuesta de condiciones para minimizar riesgos.</p>
+        </div>
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">🤝</div>
+          <h3>Administración (opcional)</h3>
+          <p>Cobro, seguimiento, coordinación de mantenciones y renovación (según plan del corredor).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS + SOCIAL PROOF -->
+  <section class="section">
+    <div class="container">
+      <h2>Así trabajamos (simple y medible)</h2>
+      <p class="section-lead">Un proceso que ayuda a que el cliente sienta control y avance.</p>
+
+      <div class="grid-3">
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">1</div>
+          <h3>Diagnóstico</h3>
+          <p>Reunión corta: objetivo, tiempos, estado de la propiedad y documentos disponibles.</p>
+        </div>
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">2</div>
+          <h3>Publicación</h3>
+          <p>Material, precio y plan de difusión. Se agenda visitas con interesados filtrados.</p>
+        </div>
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">3</div>
+          <h3>Cierre</h3>
+          <p>Negociación, documentación, promesa/contrato y acompañamiento hasta firma.</p>
+        </div>
+      </div>
+
+      <div class="grid-3" style="margin-top:14px">
+        <div class="card quote">
+          <p>“Nos mantuvieron informados cada semana. En 3 semanas ya teníamos oferta formal.”</p>
+          <strong>María J. — Viña del Mar</strong>
+          <span class="small">Testimonio ficticio</span>
+        </div>
+        <div class="card quote">
+          <p>“El filtro de arrendatarios fue clave. Cero estrés y todo por escrito.”</p>
+          <strong>Carlos P. — Concón</strong>
+          <span class="small">Testimonio ficticio</span>
+        </div>
+        <div class="card quote">
+          <p>“Tasación realista y buena estrategia. Mucha más demanda de la que esperaba.”</p>
+          <strong>Andrea R. — Quilpué</strong>
+          <span class="small">Testimonio ficticio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <h2>Sobre CostaAndes</h2>
+      <p class="section-lead">
+        Somos una corredora ficticia creada para demo. En un proyecto real, aquí va la historia del corredor, credenciales y foto.
+      </p>
+
+      <div class="grid-2">
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">🗺️</div>
+          <h3>Zonas foco</h3>
+          <p>Viña del Mar, Reñaca, Concón, Valparaíso, Quilpué, Villa Alemana y Curauma.</p>
+          <p class="small">¿Otra zona? Igual podemos evaluar según tipo de propiedad.</p>
+        </div>
+        <div class="card feature">
+          <div class="icon" aria-hidden="true">📌</div>
+          <h3>Transparencia</h3>
+          <p>Checklist de documentación y pasos. Te decimos “qué sigue” y “qué falta” sin vueltas.</p>
+          <p class="small">Ideal para propietarios que viven fuera de la región.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <p class="section-lead">Respuestas cortas que suelen ayudar a cerrar (y bajar ansiedad).</p>
+
+      <details class="card">
+        <summary>¿Cuánto se demoran en publicar?</summary>
+        <p>En esta demo: 48–72h. En la realidad depende de fotos, documentos y coordinación de visita.</p>
+      </details>
+      <details class="card">
+        <summary>¿Qué documentos necesito?</summary>
+        <p>Lo típico: rol, contribuciones, certificado de dominio vigente, y en arriendo, reglas del condominio. Te enviamos checklist.</p>
+      </details>
+      <details class="card">
+        <summary>¿Cómo filtran interesados?</summary>
+        <p>Validamos motivación, plazo, presupuesto y perfil. En arriendo: antecedentes básicos y capacidad de pago.</p>
+      </details>
+      <details class="card">
+        <summary>¿Trabajan con exclusividad?</summary>
+        <p>Depende del caso. Recomendado para alinear inversión de marketing y evitar publicaciones duplicadas/confusas.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p class="section-lead">
+        Cuéntanos tu caso (venta o arriendo). Te respondemos con un plan y pasos claros.
+      </p>
+
+      <div class="grid-2">
+        <div class="card form">
+          <!-- Netlify Forms: funciona sin backend si publicas en Netlify -->
+          <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contacto" />
+            <p hidden>
+              <label>No llenar: <input name="bot-field" /></label>
+            </p>
+
+            <div class="form-row">
+              <div>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" autocomplete="name" required placeholder="Ej: Daniela Pérez" />
+              </div>
+              <div>
+                <label for="telefono">Teléfono / WhatsApp</label>
+                <input id="telefono" name="telefono" autocomplete="tel" required placeholder="+56 9 1234 5678" />
+              </div>
+            </div>
+
+            <div class="form-row" style="margin-top:12px">
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="tu@email.com" />
+              </div>
+              <div>
+                <label for="tipo">¿Qué necesitas?</label>
+                <select id="tipo" name="tipo" required>
+                  <option value="">Selecciona…</option>
+                  <option>Quiero vender</option>
+                  <option>Quiero arrendar</option>
+                  <option>Quiero comprar</option>
+                  <option>Quiero arrendar una propiedad</option>
+                  <option>Solo tasación</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row" style="margin-top:12px">
+              <div>
+                <label for="comuna">Comuna / Sector</label>
+                <input id="comuna" name="comuna" placeholder="Ej: Concón, Reñaca, Curauma…" />
+              </div>
+              <div>
+                <label for="presupuesto">Precio / Presupuesto (opcional)</label>
+                <input id="presupuesto" name="presupuesto" placeholder="Ej: $160.000.000 o $700.000/mes" />
+              </div>
+            </div>
+
+            <div style="margin-top:12px">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" required placeholder="Cuéntanos tipo de propiedad, m², estado, y si tienes documentos a mano."></textarea>
+            </div>
+
+            <div class="hero-ctas" style="margin-top:14px">
+              <button class="btn primary" type="submit">Enviar</button>
+              <a class="btn" data-wa-cta target="_blank" rel="noopener">Prefiero WhatsApp</a>
+            </div>
+
+            <div class="help">
+              Respuesta típica el mismo día hábil. *Datos ficticios de demo. Al implementarlo para un cliente, se reemplaza la info real.
+            </div>
+          </form>
+        </div>
+
+        <div class="card feature" style="padding:18px">
+          <div class="icon" aria-hidden="true">📌</div>
+          <h3>Datos de contacto</h3>
+          <p style="margin-top:6px">
+            <b>Dirección:</b> <span data-address>Av. Perú 1234, oficina 502, Viña del Mar</span><br/>
+            <b>Horario:</b> <span data-hours>Lun–Vie 09:30–18:30</span><br/>
+            <b>Teléfono:</b> <a data-phone-link><span data-phone>+56 9 3178 4216</span></a><br/>
+            <b>Email:</b> <a data-email-link><span data-email>hola@costaandespropiedades.cl</span></a>
+          </p>
+
+          <hr class="hr" />
+
+          <h3 style="margin-top:0">Atajos</h3>
+          <div class="hero-ctas">
+            <a class="btn primary" data-wa-cta target="_blank" rel="noopener">WhatsApp directo</a>
+            <a class="btn" href="#propiedades">Ver destacados</a>
+          </div>
+
+          <p class="small" style="margin-top:10px">
+            Última actualización de la demo: <span data-updated>2026-01-05</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:space-between; align-items:flex-start">
+        <div>
+          © <span data-year>2026</span> <span data-brand>CostaAndes Propiedades</span>. Demo ficticia.
+          <div class="small">Hecho para desplegar gratis (ej: Netlify) y luego conectar dominio .cl cuando el cliente pague.</div>
+        </div>
+        <div class="small">
+          <a href="#top">Volver arriba</a> · <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY CTA (mobile) -->
+  <div class="sticky-cta">
+    <a class="btn primary" data-wa-sticky target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn" href="#contacto">Formulario</a>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

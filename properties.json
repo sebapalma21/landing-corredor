@@ -1,0 +1,241 @@
+{
+  "updated": "2026-01-05",
+  "office": {
+    "brand": "CostaAndes Propiedades",
+    "tagline": "Venta y arriendo en la Quinta Región",
+    "whatsapp": "+56931784216",
+    "phone_display": "+56 9 3178 4216",
+    "email": "hola@costaandespropiedades.cl",
+    "address": "Av. Perú 1234, oficina 502, Viña del Mar, Región de Valparaíso",
+    "hours": "Lun–Vie 09:30–18:30 • Sáb 10:00–13:00",
+    "service_area": [
+      "Viña del Mar",
+      "Concón",
+      "Reñaca",
+      "Valparaíso",
+      "Quilpué",
+      "Villa Alemana",
+      "Curauma"
+    ]
+  },
+  "sales": [
+    {
+      "id": "VTA-001",
+      "title": "Departamento vista mar en Reñaca",
+      "location": "Reñaca, Viña del Mar",
+      "price_clp": 168000000,
+      "details": {
+        "dorms": 3,
+        "baths": 2,
+        "area_m2": 92,
+        "parking": 1
+      },
+      "highlights": [
+        "Terraza amplia",
+        "Conserjería 24/7",
+        "A pasos de la playa"
+      ],
+      "image": "https://picsum.photos/seed/renaca-depto/900/650"
+    },
+    {
+      "id": "VTA-002",
+      "title": "Casa familiar con patio en Quilpué",
+      "location": "Quilpué, Región de Valparaíso",
+      "price_clp": 132000000,
+      "details": {
+        "dorms": 4,
+        "baths": 3,
+        "area_m2": 140,
+        "parking": 2
+      },
+      "highlights": [
+        "Barrio residencial",
+        "Loggia y bodega",
+        "Cercana a colegios"
+      ],
+      "image": "https://picsum.photos/seed/quilpue-casa/900/650"
+    },
+    {
+      "id": "VTA-003",
+      "title": "Depto moderno en Concón (Costa de Montemar)",
+      "location": "Concón",
+      "price_clp": 189000000,
+      "details": {
+        "dorms": 2,
+        "baths": 2,
+        "area_m2": 78,
+        "parking": 1
+      },
+      "highlights": [
+        "Piscina y quincho",
+        "Ventanas termopanel",
+        "Excelente conectividad"
+      ],
+      "image": "https://picsum.photos/seed/concon-montemar/900/650"
+    },
+    {
+      "id": "VTA-004",
+      "title": "Casa con quincho en Villa Alemana",
+      "location": "Villa Alemana",
+      "price_clp": 117000000,
+      "details": {
+        "dorms": 3,
+        "baths": 2,
+        "area_m2": 118,
+        "parking": 2
+      },
+      "highlights": [
+        "Quincho techado",
+        "Cocina remodelada",
+        "Barrio tranquilo"
+      ],
+      "image": "https://picsum.photos/seed/villaalemana-casa/900/650"
+    },
+    {
+      "id": "VTA-005",
+      "title": "Loft céntrico para inversión en Valparaíso",
+      "location": "Cerro Alegre, Valparaíso",
+      "price_clp": 78000000,
+      "details": {
+        "dorms": 1,
+        "baths": 1,
+        "area_m2": 38,
+        "parking": 0
+      },
+      "highlights": [
+        "Alta demanda arriendo",
+        "Cercano a cafés",
+        "Edificio con ascensor"
+      ],
+      "image": "https://picsum.photos/seed/valpo-loft/900/650"
+    },
+    {
+      "id": "VTA-006",
+      "title": "Parcela con casa en Curauma (entorno verde)",
+      "location": "Curauma, Valparaíso",
+      "price_clp": 245000000,
+      "details": {
+        "dorms": 4,
+        "baths": 3,
+        "area_m2": 210,
+        "parking": 3
+      },
+      "highlights": [
+        "Terreno amplio",
+        "Bosque nativo",
+        "Ideal teletrabajo"
+      ],
+      "image": "https://picsum.photos/seed/curauma-parcela/900/650"
+    }
+  ],
+  "rentals": [
+    {
+      "id": "ARR-101",
+      "title": "Departamento 2D2B en Viña (Plan)",
+      "location": "Centro, Viña del Mar",
+      "price_clp_month": 620000,
+      "details": {
+        "dorms": 2,
+        "baths": 2,
+        "area_m2": 64,
+        "parking": 1
+      },
+      "highlights": [
+        "Cercano a metro",
+        "Incluye bodega",
+        "Gastos comunes aprox. $85.000"
+      ],
+      "image": "https://picsum.photos/seed/vina-arriendo-plan/900/650"
+    },
+    {
+      "id": "ARR-102",
+      "title": "Casa 3D2B en Quilpué (sector Los Pinos)",
+      "location": "Quilpué",
+      "price_clp_month": 780000,
+      "details": {
+        "dorms": 3,
+        "baths": 2,
+        "area_m2": 110,
+        "parking": 2
+      },
+      "highlights": [
+        "Patio",
+        "Cocina independiente",
+        "Excelente locomoción"
+      ],
+      "image": "https://picsum.photos/seed/quilpue-arriendo-casa/900/650"
+    },
+    {
+      "id": "ARR-103",
+      "title": "Depto estudio amoblado en Valparaíso",
+      "location": "Cerro Concepción, Valparaíso",
+      "price_clp_month": 410000,
+      "details": {
+        "dorms": 1,
+        "baths": 1,
+        "area_m2": 30,
+        "parking": 0
+      },
+      "highlights": [
+        "Amoblado",
+        "Gastos comunes bajos",
+        "Ideal estudiantes/profesionales"
+      ],
+      "image": "https://picsum.photos/seed/valpo-estudio/900/650"
+    },
+    {
+      "id": "ARR-104",
+      "title": "Departamento 3D2B en Reñaca Alto",
+      "location": "Reñaca Alto, Viña del Mar",
+      "price_clp_month": 690000,
+      "details": {
+        "dorms": 3,
+        "baths": 2,
+        "area_m2": 76,
+        "parking": 1
+      },
+      "highlights": [
+        "Condominio seguro",
+        "Áreas verdes",
+        "Cercano a supermercados"
+      ],
+      "image": "https://picsum.photos/seed/renacaalto-arriendo/900/650"
+    },
+    {
+      "id": "ARR-105",
+      "title": "Depto 2D2B en Concón (sector Dunas)",
+      "location": "Concón",
+      "price_clp_month": 740000,
+      "details": {
+        "dorms": 2,
+        "baths": 2,
+        "area_m2": 68,
+        "parking": 1
+      },
+      "highlights": [
+        "Terraza",
+        "Piscina",
+        "A 10 min de la playa"
+      ],
+      "image": "https://picsum.photos/seed/concon-dunas/900/650"
+    },
+    {
+      "id": "ARR-106",
+      "title": "Casa 4D3B en Curauma (condominio)",
+      "location": "Curauma, Valparaíso",
+      "price_clp_month": 1180000,
+      "details": {
+        "dorms": 4,
+        "baths": 3,
+        "area_m2": 160,
+        "parking": 2
+      },
+      "highlights": [
+        "Condominio",
+        "Quincho",
+        "Cercano a colegios"
+      ],
+      "image": "https://picsum.photos/seed/curauma-arriendo/900/650"
+    }
+  ]
+}
